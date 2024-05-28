@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Equation Calculator</title>
+    <link rel="stylesheet" href="stylepersamaanpangkat.css">
+</head>
+
+<body>
+    <div>
+        <div class="calculator">
+            <h2>Persamaan Liner Kuadrat Variable</h2>
+            <br />
+            <div>
+                <div class="input-fields">
+                    <input type="text" class="input-a" id="inputa" placeholder="AX^2">
+                    <!-- <input type="text" class="input-simbol" id="inputsimbol1" placeholder="+ / -"> -->
+                    <input type="text" class="input-b" id="inputb" placeholder="BX">
+                    <!-- <input type="text" class="input-simbol" id="inputsimbol2" placeholder="+ / -"> -->
+                    <input type="text" class="input-c" id="inputc" placeholder="C">
+                    <!-- <label for="input-b">=</label>
+                    <label> 0 </label> -->
+                </div>
+            </div>
+            <div class="equal-button">
+                <button onclick="selesaikanPersamaanKuadrat()">Calculate</button>
+                <button onclick="clearInput()">Clear</button>
+            </div>
+            <br />
+            <div id="prosesPengerjaan"></div>
+            <!-- <input id="prosesPengerjaan"> -->
+        </div>
+        <div class="navigation-buttons">
+            <button class="btn-back" onclick="window.location.href='../'">Back</button>
+            <button class="btn-next" onclick="window.location.href='../'">Next</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
